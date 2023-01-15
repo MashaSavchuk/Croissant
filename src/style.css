@@ -2,6 +2,7 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial,
     "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: rgb(211, 203, 192);
 }
 
 h1 {
@@ -32,12 +33,13 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-size: 30px;
 }
 
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: rgb(141, 57, 141);
   font-size: 28px;
   text-decoration: none;
 }
